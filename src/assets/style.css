@@ -11,6 +11,8 @@
     color: #045F50 !important;
 }
 
+/* akhir navbar */
+
 /* herro */
 #hero {
     margin-top: 108px;
@@ -44,6 +46,8 @@
     top: -20px;
     border-radius: 60px 60px 30px 30px;
 }
+
+/* akhir hero */
 
 /* Product */
 #product {
@@ -125,6 +129,39 @@
 #product .stars {
     margin-top: -10% !important;
 }
+
+/* akhir product */
+
+/* Testimonial */
+#testimonial {
+    margin-top: 158px;
+}
+
+#testimonial .qoutes {
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+    text-align: center;
+    color: #272042;
+}
+
+#testimonial .backtik {
+    position: absolute;
+    width: 137px;
+    height: 432px;
+    left: 200px;
+    top: 900px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 500px;
+    line-height: 625px;
+    text-align: center;
+    color: #F1F1F1;
+    z-index: -1;
+
+}
+
+/* Akhir Testimonial */
 
 /* utilities */
 .btn-primary {

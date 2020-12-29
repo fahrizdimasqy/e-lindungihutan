@@ -3,6 +3,7 @@ import Button from "elements/Button";
 import Header from "../parts/Header";
 import Herro from "../parts/Herro";
 import Product from "../parts/Product";
+import Testimonial from "../parts/Testimonial";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Header></Header>
       <Herro />
       <Product />
+      <Testimonial />
     </div>
   );
 }
