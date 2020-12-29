@@ -1,5 +1,7 @@
 import React from "react";
+// import image
 import ImageProduct from "assets/images/mtmf-robin-emmons.jpg";
+import Stars from "assets/images/stars.png";
 
 function Product() {
   return (
@@ -9,7 +11,7 @@ function Product() {
         <div className="row">
           <div className="col-md-4">
             <div className="card">
-              <img src={ImageProduct} class="card-img-top" alt="..." />
+              <img src={ImageProduct} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h1 className="card-title">Special to Try</h1>
                 <p className="card-text">
@@ -17,12 +19,13 @@ function Product() {
                   typesetting industry. Lorem Ipsum has been
                 </p>
                 <p className="text-price">Rp. 150000</p>
+                <img src={Stars} alt="" className="d-block mx-auto stars" />
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={ImageProduct} class="card-img-top" alt="..." />
+              <img src={ImageProduct} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h1 className="card-title">Special to Try</h1>
                 <p className="card-text">
@@ -30,12 +33,13 @@ function Product() {
                   typesetting industry. Lorem Ipsum has been
                 </p>
                 <p className="text-price">Rp. 150000</p>
+                <img src={Stars} alt="" className="d-block mx-auto stars" />
               </div>
             </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={ImageProduct} class="card-img-top" alt="..." />
+              <img src={ImageProduct} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h1 className="card-title">Special to Try</h1>
                 <p className="card-text">
@@ -43,6 +47,7 @@ function Product() {
                   typesetting industry. Lorem Ipsum has been
                 </p>
                 <p className="text-price">Rp. 150000</p>
+                <img src={Stars} alt="" className="d-block mx-auto stars" />
               </div>
             </div>
           </div>
