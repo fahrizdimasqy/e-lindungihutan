@@ -1,0 +1,46 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* herro */
+#hero {
+    margin-top: 148px;
+}
+
+#hero .display-6 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    /* line-height: 70px; */
+    /* or 152% */
+    color: #272042;
+}
+
+#hero p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 170% */
+    color: #8B8BA5;
+}
+
+#hero .image-hero {
+    position: relative;
+    width: 483px;
+    height: 322px;
+    top: -50px;
+    border-radius: 60px 60px 30px 30px;
+}
+
+/* utilities */
+.btn-primary {
+    background: #045F50 !important;
+    border-color: #034136 !important;
+    border-radius: 30px;
+}
+
+.btn-primary:hover {
+    background: #034136 !important;
+}

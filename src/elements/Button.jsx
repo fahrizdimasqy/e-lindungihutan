@@ -9,6 +9,9 @@ function Button(props) {
   if (props.isPrimary) {
     className.push("btn-primary");
   }
+  if (props.isSmall) {
+    className.push("btn-md");
+  }
 
   return (
     <div>
@@ -22,6 +25,7 @@ function Button(props) {
 
 Button.propTypes = {
   isPrimary: propTypes.bool,
+  isSmall: propTypes.bool,
 };
 
 export default Button;

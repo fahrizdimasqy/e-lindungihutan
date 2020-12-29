@@ -1,13 +1,15 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
+import Button from "elements/Button";
 
 function Header(props) {
   return (
     <Fragment>
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
+          <Link to="/" className="navbar-brand">
+            Lindungihutan
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,29 +24,30 @@ function Header(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link to="/" className="nav-link">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
-                </a>
+                <Link to="/projek" className="nav-link">
+                  Projek
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
-                </a>
+                <Link to="/parner" className="nav-link">
+                  Parner
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
-                </a>
+                <Link to="/tentang" className="nav-link">
+                  Tentang Kami
+                </Link>
               </li>
             </ul>
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            {/* memanggil component Button dengan props isPrimary dan isSmall */}
+            <Button isPrimary isSmall>
+              Sign Up
+            </Button>
           </div>
         </div>
       </nav>

@@ -13,7 +13,7 @@ import "jquery/dist/jquery.min.js";
 import "popper.js/dist/popper.js";
 ReactDOM.render(
   <BrowserRouter>
-    <App />{" "}
+    <App />
   </BrowserRouter>,
   document.getElementById("root")
 );
