@@ -1,12 +1,13 @@
-import logo from "./logo.svg";
+import React from "react";
 import "assets/style.css";
-import $ from "jquery";
-window.jQuery = $;
-window.$ = $;
-global.jQuery = $;
+import Home from "./scenes/Home";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Home />
+    </div>
+  );
 }
 
 export default App;
