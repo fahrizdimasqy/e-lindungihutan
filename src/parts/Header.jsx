@@ -5,10 +5,11 @@ import Button from "elements/Button";
 function Header(props) {
   return (
     <Fragment>
+      {/* ini adalah component header */}
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container">
           <Link to="/" className="navbar-brand">
-            Lindungihutan
+            Lindungi<span>hutan</span>
           </Link>
           <button
             className="navbar-toggler"

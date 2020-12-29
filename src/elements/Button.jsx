@@ -1,6 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 
+// ini adalah element button
 function Button(props) {
   // className default adalah btn
   const className = ["btn"];
