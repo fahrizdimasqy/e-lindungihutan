@@ -1,4 +1,5 @@
 import React from "react";
+// import images
 import UserImage from "assets/images/pic.png";
 
 function Testimonial() {
@@ -6,10 +7,9 @@ function Testimonial() {
     <div id="testimonial">
       <div className="container">
         <h4 className="qoutes text-center">
-          Awalnya saya malu dengan mertua karena <br /> tidak bisa memasak kini
-          mereka lebih suka <br />
-          makan malam di rumah demi menyantap <br />
-          masakan yang saya buat sendiri
+          Awalnya saya malu dengan mertua karena tidak bisa memasak kini mereka
+          lebih suka makan malam di rumah demi menyantap masakan yang saya buat
+          sendiri
         </h4>
         <p className="backtik">"</p>
         <img src={UserImage} alt="" className="user-image" />

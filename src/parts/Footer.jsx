@@ -2,14 +2,18 @@ import React from "react";
 
 function Footer() {
   return (
+    // bagian footer
     <div id="footer">
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-md-6">
             <h3>Lindungialam</h3>
-            Website Penggalangan Dana Online untuk Konservasi Hutan dan
-            Lingkungan. Yayasan Lindungi Hutan resmi berbadan hukum dan memiliki
-            Izin Pengumpulan Sumbangan pada SK Kemensos No. 630/HUK-PS/2020.
+            <p>
+              Website Penggalangan Dana Online untuk Konservasi Hutan dan
+              Lingkungan. Yayasan Lindungi Hutan resmi berbadan hukum dan
+              memiliki Izin Pengumpulan Sumbangan pada SK Kemensos No.
+              630/HUK-PS/2020.
+            </p>
           </div>
           <div className="col-md-2">
             <h3>Tentang Kami</h3>
@@ -31,7 +35,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 sub-item">
             <ul className="list-unstyled">
               <li>
                 <a className="d-block py-1" href="/faq#carapesan">
@@ -50,7 +54,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 sub-item">
             <ul className="list-unstyled">
               <li>
                 <a className="d-block py-1" href="/faq#carapesan">

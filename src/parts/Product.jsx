@@ -5,6 +5,7 @@ import Stars from "assets/images/stars.png";
 
 function Product() {
   return (
+    // bagian product
     <div id="product">
       <div className="container">
         <h2 className="display-6 text-center">Produk</h2>

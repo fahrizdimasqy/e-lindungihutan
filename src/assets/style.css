@@ -149,8 +149,8 @@
     position: absolute;
     width: 137px;
     height: 432px;
-    left: 200px;
-    top: 900px;
+    left: 70px;
+    top: 960px;
     font-style: normal;
     font-weight: bold;
     font-size: 500px;
@@ -221,6 +221,10 @@
     color: #045F50;
 }
 
+#footer .sub-item {
+    margin-top: 39px;
+}
+
 #footer footer {
     padding: 20px;
 }
@@ -240,9 +244,25 @@
 
 /* mobile version */
 @media screen and (max-width: 576px) {
+
     #hero {
         margin-top: 20px;
     }
+
+    #hero .display-6 {
+        font-size: 24px;
+        line-height: 40px;
+        /* or 152% */
+
+
+        color: #272042;
+    }
+
+    #hero p {
+        font-size: 14px;
+        width: 60%;
+    }
+
 
     #hero .image-hero {
         margin-top: 40px;
@@ -253,7 +273,7 @@
         width: 137px;
         height: 432px;
         left: 10px;
-        top: 2280px;
+        top: 1980px;
         font-style: normal;
         font-weight: bold;
         font-size: 300px;
@@ -261,6 +281,18 @@
         text-align: center;
         color: #F1F1F1;
         z-index: -1;
+    }
 
+    #testimonial .qoutes {
+        width: 100%;
+        font-size: 20px;
+        line-height: 50px;
+        /* or 139% */
+        text-align: center;
+        color: #272042;
+    }
+
+    #footer p {
+        font-size: 14px;
     }
 }
