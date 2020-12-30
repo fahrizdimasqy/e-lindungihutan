@@ -231,6 +231,13 @@
 
 /* akhir footer*/
 
+/* detail product */
+#detail-product p {
+    width: 70%;
+}
+
+/* akhir detail product */
+
 /* utilities */
 .btn-primary {
     background: #045F50 !important;
@@ -273,7 +280,7 @@
 
     /* Proudct */
     #product .stars {
-        margin-top: -1% !important;
+        margin-top: -5%;
     }
 
     /* akhir product/ */
