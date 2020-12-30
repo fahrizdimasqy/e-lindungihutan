@@ -163,6 +163,47 @@
 
 /* Akhir Testimonial */
 
+/* statistic */
+#statistic {
+    margin-top: 10%;
+}
+
+#statistic .number-statistic {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #272042;
+
+}
+
+#statistic .text-statistic {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #8B8BA5;
+}
+
+/* akhir statistic */
+
+/* footer */
+#footer {
+    margin-top: 50px;
+}
+
+#footer footer {
+    padding: 20px;
+}
+
+/* akhir footer*/
+
 /* utilities */
 .btn-primary {
     background: #045F50 !important;

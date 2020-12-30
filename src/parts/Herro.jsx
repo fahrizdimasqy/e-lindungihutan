@@ -15,7 +15,7 @@ function Herro() {
               When you eat something that cooked by yourself, <br /> the
               happiness is priceless.
             </p>
-            <a href="" className="btn btn-primary">
+            <a href="" className="btn btn-primary btn-lg">
               Buat Kampanye Alam
             </a>
           </div>
