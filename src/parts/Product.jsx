@@ -2,6 +2,7 @@ import React from "react";
 // import image
 import ImageProduct from "assets/images/mtmf-robin-emmons.jpg";
 import Stars from "assets/images/stars.png";
+import { Link } from "react-router-dom";
 
 function Product() {
   return (
@@ -11,7 +12,7 @@ function Product() {
         <h2 className="display-6 text-center">Produk</h2>
         <div className="row">
           <div className="col-md-4">
-            <a href="" className="card-link">
+            <Link to="" className="card-link">
               <div className="card">
                 <img src={ImageProduct} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -24,10 +25,10 @@ function Product() {
                   <img src={Stars} alt="" className="d-block mx-auto stars" />
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-4">
-            <a href="" className="card-link">
+            <Link to="/detail-product" className="card-link">
               <div className="card">
                 <img src={ImageProduct} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -40,10 +41,10 @@ function Product() {
                   <img src={Stars} alt="" className="d-block mx-auto stars" />
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="col-md-4">
-            <a href="" className="card-link">
+            <Link to="" className="card-link">
               <div className="card">
                 <img src={ImageProduct} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -56,7 +57,7 @@ function Product() {
                   <img src={Stars} alt="" className="d-block mx-auto stars" />
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

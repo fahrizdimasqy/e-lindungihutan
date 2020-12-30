@@ -8,6 +8,8 @@ import Statistic from "../parts/Statistic";
 import Footer from "../parts/Footer";
 import BottomNav from "parts/BottomNav";
 
+import DetailProduct from "./DetailProduct";
+
 function Home() {
   return (
     <div>

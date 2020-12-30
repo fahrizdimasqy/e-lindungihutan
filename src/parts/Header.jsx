@@ -1,7 +1,15 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Button from "elements/Button";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  BrowserRouter,
+} from "react-router-dom";
+import Home from "scenes/Home";
+import DetailProduct from "scenes/DetailProduct";
 function Header(props) {
   return (
     <Fragment>
@@ -45,7 +53,7 @@ function Header(props) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/detail" className="nav-link">
+                <Link to="/detail-product" className="nav-link">
                   Detail
                 </Link>
               </li>

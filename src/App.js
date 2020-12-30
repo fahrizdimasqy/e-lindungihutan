@@ -3,11 +3,7 @@ import "assets/style.css";
 import Home from "./scenes/Home";
 
 function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+  return <div className="App">{/* <Home /> */}</div>;
 }
 
 export default App;
