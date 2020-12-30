@@ -81,7 +81,7 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              Copyright © 2020 - <a href="#">Lindungialam</a>. All rights
+              Copyright © 2020 - <a href="#">Lindungihutan</a>. All rights
               reserved.
             </div>
           </div>
