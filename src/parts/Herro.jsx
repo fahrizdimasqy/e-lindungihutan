@@ -20,7 +20,12 @@ function Herro() {
             </a>
           </div>
           <div className="col-md-5">
-            <img src={ImageHero} alt="" width="400" className="image-hero" />
+            <img
+              src={ImageHero}
+              alt=""
+              width="400"
+              className="image-hero img-fluid"
+            />
           </div>
         </div>
       </div>

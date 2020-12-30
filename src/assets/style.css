@@ -214,3 +214,13 @@
 .btn-primary:hover {
     background: #034136 !important;
 }
+
+@media screen and (max-width: 576px) {
+    #hero {
+        margin-top: 20px;
+    }
+
+    #hero .image-hero {
+        margin-top: 40px;
+    }
+}
