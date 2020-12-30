@@ -238,6 +238,7 @@
     background: #034136 !important;
 }
 
+/* mobile version */
 @media screen and (max-width: 576px) {
     #hero {
         margin-top: 20px;
@@ -245,5 +246,21 @@
 
     #hero .image-hero {
         margin-top: 40px;
+    }
+
+    #testimonial .backtik {
+        position: absolute;
+        width: 137px;
+        height: 432px;
+        left: 10px;
+        top: 2280px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 300px;
+        line-height: 625px;
+        text-align: center;
+        color: #F1F1F1;
+        z-index: -1;
+
     }
 }
