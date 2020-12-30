@@ -293,7 +293,11 @@
     }
 
     #bottom-nav nav {
-        border-top: 1px solid rgb(216, 216, 216);
+        height: 45px;
+    }
+
+    #bottom-nav nav li {
+        margin-top: 25px;
     }
 
     #footer p {
