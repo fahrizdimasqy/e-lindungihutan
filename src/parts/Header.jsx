@@ -44,6 +44,11 @@ function Header(props) {
                   Tentang Kami
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/detail" className="nav-link">
+                  Detail
+                </Link>
+              </li>
             </ul>
             {/* memanggil component Button dengan props isPrimary dan isSmall */}
             <Button isPrimary isSmall>

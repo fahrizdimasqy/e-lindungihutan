@@ -292,6 +292,10 @@
         color: #272042;
     }
 
+    #bottom-nav nav {
+        border-top: 1px solid rgb(216, 216, 216);
+    }
+
     #footer p {
         font-size: 14px;
     }

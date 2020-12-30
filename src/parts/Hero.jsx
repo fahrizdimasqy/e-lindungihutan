@@ -1,7 +1,7 @@
 import React from "react";
 import ImageHero from "assets/images/d71c95911c070b7c1f0dbf6ec47bd775.jpg";
 
-function Herro() {
+function Hero() {
   return (
     //   ini adalah component hero
     <div id="hero">
@@ -33,4 +33,4 @@ function Herro() {
   );
 }
 
-export default Herro;
+export default Hero;
