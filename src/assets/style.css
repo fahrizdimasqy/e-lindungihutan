@@ -161,6 +161,13 @@
 
 }
 
+#testimonial .user-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
 /* Akhir Testimonial */
 
 /* statistic */
@@ -196,6 +203,22 @@
 /* footer */
 #footer {
     margin-top: 50px;
+}
+
+#footer h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #272042;
+}
+
+#footer a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #045F50;
 }
 
 #footer footer {

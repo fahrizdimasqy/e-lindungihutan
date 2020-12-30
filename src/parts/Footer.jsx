@@ -32,10 +32,10 @@ function Footer() {
             </ul>
           </div>
           <div className="col-md-2">
-            <ul className="list-unstyled mt-5">
+            <ul className="list-unstyled">
               <li>
                 <a className="d-block py-1" href="/faq#carapesan">
-                  Cara Pesan
+                  Kebijakan dan Privasi
                 </a>
               </li>
               <li>
@@ -45,18 +45,13 @@ function Footer() {
               </li>
               <li>
                 <a className="d-block py-1" href="#">
-                  Kebijakan dan Privasi
-                </a>
-              </li>
-              <li>
-                <a className="d-block py-1" href="/tos">
-                  Syarat dan Ketentuan
+                  Kontak
                 </a>
               </li>
             </ul>
           </div>
           <div className="col-md-2">
-            <ul className="list-unstyled mt-5">
+            <ul className="list-unstyled">
               <li>
                 <a className="d-block py-1" href="/faq#carapesan">
                   Cara Pesan
