@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component, Fragment } from "react";
 import Button from "elements/Button";
 import Header from "../parts/Header";
 import Hero from "../parts/Hero";
@@ -10,24 +10,28 @@ import BottomNav from "parts/BottomNav";
 
 import DetailProduct from "./DetailProduct";
 
-function Home() {
-  return (
-    <div>
-      {/* memanggil component Header */}
-      <Header></Header>
-      {/* memanggil component hero */}
-      <Hero />
-      {/* memanggil component product */}
-      <Product />
-      {/* memanggil component testimonial */}
-      <Testimonial />
-      {/* memanggil component statistic */}
-      <Statistic />
-      <BottomNav />
-      {/* memanggil component footer */}
-      <Footer />
-    </div>
-  );
+class Home extends Component {
+  render() {
+    return (
+      <Fragment>
+        {/* memanggil component Header */}
+        <Header></Header>
+        {/* memanggil component hero */}
+        <Hero />
+        {/* memanggil component product */}
+
+        <Product />
+
+        {/* memanggil component testimonial */}
+        <Testimonial />
+        {/* memanggil component statistic */}
+        <Statistic />
+        <BottomNav />
+        {/* memanggil component footer */}
+        <Footer />
+      </Fragment>
+    );
+  }
 }
 
 export default Home;

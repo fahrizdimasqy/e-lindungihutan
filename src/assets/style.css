@@ -68,7 +68,7 @@
 #product .card {
     margin-bottom: 65px;
     /* width: 322.39px; */
-    height: 383.14px;
+    height: 333.14px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -115,7 +115,7 @@
     width: 224px;
     height: 17px;
     left: 0;
-    top: -50.41px;
+    top: -70.41px;
 
     font-family: Quicksand;
     font-style: normal;
@@ -127,7 +127,7 @@
 }
 
 #product .stars {
-    margin-top: -10% !important;
+    margin-top: -25% !important;
 }
 
 /* akhir product */

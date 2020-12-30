@@ -1,68 +1,45 @@
-import React from "react";
+import React, { Component, Fragment } from "react";
 // import image
 import ImageProduct from "assets/images/mtmf-robin-emmons.jpg";
 import Stars from "assets/images/stars.png";
 import { Link } from "react-router-dom";
+import CardProduct from "elements/CardProduct";
+import axios from "axios";
 
-function Product() {
-  return (
-    // bagian product
-    <div id="product">
-      <div className="container">
-        <h2 className="display-6 text-center">Produk</h2>
-        <div className="row">
-          <div className="col-md-4">
-            <Link to="/detail-product" className="card-link">
-              <div className="card">
-                <img src={ImageProduct} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h1 className="card-title">Special to Try</h1>
-                  <p className="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been
-                  </p>
-                  <p className="text-price">Rp. 150000</p>
-                  <img src={Stars} alt="" className="d-block mx-auto stars" />
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div className="col-md-4">
-            <Link to="/detail-product" className="card-link">
-              <div className="card">
-                <img src={ImageProduct} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h1 className="card-title">Special to Try</h1>
-                  <p className="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been
-                  </p>
-                  <p className="text-price">Rp. 150000</p>
-                  <img src={Stars} alt="" className="d-block mx-auto stars" />
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div className="col-md-4">
-            <Link to="/detail-product" className="card-link">
-              <div className="card">
-                <img src={ImageProduct} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h1 className="card-title">Special to Try</h1>
-                  <p className="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been
-                  </p>
-                  <p className="text-price">Rp. 150000</p>
-                  <img src={Stars} alt="" className="d-block mx-auto stars" />
-                </div>
-              </div>
-            </Link>
+class Product extends Component {
+  state = {
+    product: [],
+  };
+  componentDidMount() {
+    axios.get("http://localhost:3000/product").then((result) => {
+      this.setState({
+        product: result.data,
+      });
+    });
+  }
+  render() {
+    return (
+      // bagian product
+      <div id="product">
+        <div className="container">
+          <h2 className="display-6 text-center mb-4">Produk</h2>
+          <div className="row">
+            {this.state.product.map((product) => {
+              return (
+                <CardProduct
+                  key={product.id}
+                  name={product.name}
+                  price={product.price}
+                  description={product.description}
+                  image={product.image}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default Product;

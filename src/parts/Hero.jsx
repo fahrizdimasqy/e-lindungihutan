@@ -20,12 +20,61 @@ function Hero() {
             </a>
           </div>
           <div className="col-md-5">
-            <img
-              src={ImageHero}
-              alt=""
-              width="400"
-              className="image-hero img-fluid"
-            />
+            <div
+              id="carouselExampleControls"
+              className="carousel slide"
+              data-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img
+                    src="https://www.taspromosiseminar.com/wp-content/uploads/2017/07/jual-tas-go-green-spunbond-murah-500x270.jpg"
+                    alt=""
+                    width="400"
+                    className="image-hero img-fluid"
+                  />
+                  {/* <img className="d-block w-100" src="..." alt="First slide" /> */}
+                </div>
+                <div className="carousel-item">
+                  <img
+                    className="image-hero img-fluid"
+                    src="https://cdn-2.tstatic.net/travel/foto/bank/images/sedotan_20180807_150812.jpg"
+                    alt="Second slide"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    className="image-hero img-fluid"
+                    src="https://cdn-2.tstatic.net/travel/foto/bank/images/sedotan_20180807_150812.jpg"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+              <a
+                className="carousel-control-prev"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="sr-only">Previous</span>
+              </a>
+              <a
+                className="carousel-control-next"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="sr-only">Next</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

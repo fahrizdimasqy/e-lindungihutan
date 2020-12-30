@@ -2,21 +2,24 @@
     "product":[
         {
             "id":1, 
-            "name": "test",
-             "description": "test", 
-             "price": 50000
+            "name": "Sedotan Stainles",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis tenetur porro eaque eos doloremque minima nemo, error magnam iusto! Nam, sapiente illum ipsum praesentium unde nostrum fugit animi laudantium at. Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Molestias beatae soluta unde nesciunt officia natus minus, incidunt reprehenderit consequatur quas, perspiciatis consequuntur fuga sunt excepturi voluptates perferendis dolore ad? Quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto totam,  tenetur ad quo error eveniet! Suscipit quam ducimus harum culpa necessitatibus aliquid, nihil vero eos saepe facilis deleniti rem! Rerum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore animi deserunt molestiae nihil esse eum, itaque consequuntur nesciunt adipisci eveniet quidem harum, omnis sunt repellendus obcaecati architecto iste, eaque labore?Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Maxime ipsum nesciunt aliquam aliquid quae consectetur pariatur veritatis porro, officia at voluptate? Est odio quo dolor in nobis soluta numquam accusamus.", 
+            "price": 50000,
+            "image":"https://cdn-2.tstatic.net/travel/foto/bank/images/sedotan_20180807_150812.jpg"
         },
         {
             "id":2, 
-            "name": "test",
-             "description": "test", 
-             "price": 50000
+            "name": "Tas go green",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis tenetur porro eaque eos doloremque minima nemo, error magnam iusto! Nam, sapiente illum ipsum praesentium unde nostrum fugit animi laudantium at. Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Molestias beatae soluta unde nesciunt officia natus minus, incidunt reprehenderit consequatur quas, perspiciatis consequuntur fuga sunt excepturi voluptates perferendis dolore ad? Quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto totam,  tenetur ad quo error eveniet! Suscipit quam ducimus harum culpa necessitatibus aliquid, nihil vero eos saepe facilis deleniti rem! Rerum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore animi deserunt molestiae nihil esse eum, itaque consequuntur nesciunt adipisci eveniet quidem harum, omnis sunt repellendus obcaecati architecto iste, eaque labore?Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Maxime ipsum nesciunt aliquam aliquid quae consectetur pariatur veritatis porro, officia at voluptate? Est odio quo dolor in nobis soluta numquam accusamus.", 
+            "price": 50000,
+            "image":"https://www.taspromosiseminar.com/wp-content/uploads/2017/07/jual-tas-go-green-spunbond-murah-500x270.jpg"
         },
         {
             "id":3, 
-            "name": "test",
-             "description": "test", 
-             "price": 50000
+            "name": "Tas go green",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis tenetur porro eaque eos doloremque minima nemo, error magnam iusto! Nam, sapiente illum ipsum praesentium unde nostrum fugit animi laudantium at. Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Molestias beatae soluta unde nesciunt officia natus minus, incidunt reprehenderit consequatur quas, perspiciatis consequuntur fuga sunt excepturi voluptates perferendis dolore ad? Quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto totam,  tenetur ad quo error eveniet! Suscipit quam ducimus harum culpa necessitatibus aliquid, nihil vero eos saepe facilis deleniti rem! Rerum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore animi deserunt molestiae nihil esse eum, itaque consequuntur nesciunt adipisci eveniet quidem harum, omnis sunt repellendus obcaecati architecto iste, eaque labore?Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Maxime ipsum nesciunt aliquam aliquid quae consectetur pariatur veritatis porro, officia at voluptate? Est odio quo dolor in nobis soluta numquam accusamus.", 
+            "price": 50000,
+            "image":"https://www.taspromosiseminar.com/wp-content/uploads/2017/07/jual-tas-go-green-spunbond-murah-500x270.jpg"
         }
     ]
 }
