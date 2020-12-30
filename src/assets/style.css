@@ -367,6 +367,28 @@
     /* detail product */
     #detail-product .name-product {
         margin-top: -10%;
+        font-size: 20px;
+    }
+
+    #detail-product .price-product {
+        font-size: 20px;
+        position: relative;
+        top: -10%;
+    }
+
+    #detail-product .stars-detail {
+        position: relative;
+        top: -10%;
+    }
+
+    #detail-product .btn-buy {
+        position: relative;
+        top: -20%;
+    }
+
+    #detail-product .btn-cart {
+        position: relative;
+        top: -20%;
     }
 
     /* akhir detail product */

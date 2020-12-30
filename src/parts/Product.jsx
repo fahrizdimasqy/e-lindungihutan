@@ -12,7 +12,7 @@ function Product() {
         <h2 className="display-6 text-center">Produk</h2>
         <div className="row">
           <div className="col-md-4">
-            <Link to="" className="card-link">
+            <Link to="/detail-product" className="card-link">
               <div className="card">
                 <img src={ImageProduct} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -44,7 +44,7 @@ function Product() {
             </Link>
           </div>
           <div className="col-md-4">
-            <Link to="" className="card-link">
+            <Link to="/detail-product" className="card-link">
               <div className="card">
                 <img src={ImageProduct} className="card-img-top" alt="..." />
                 <div className="card-body">

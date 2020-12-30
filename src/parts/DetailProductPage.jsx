@@ -17,12 +17,12 @@ function DetailProductPage() {
           <div className="col-md-4">
             <h4 className="name-product">Test</h4>
             <p className="price-product">Rp. 150000</p>
-            <img src={Stars} alt="" />
+            <img src={Stars} alt="" className="stars-detail" />
             <br />
-            <button className="btn btn-success btn-lg mt-5">
+            <button className="btn btn-success btn-lg mt-5 btn-buy">
               Beli sekarang
             </button>
-            <button className="btn btn-danger btn-lg mt-2 mb-3">
+            <button className="btn btn-danger btn-lg mt-2 mb-3 btn-cart">
               Tambah Ke keranjang
             </button>
           </div>
