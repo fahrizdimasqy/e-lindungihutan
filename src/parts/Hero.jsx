@@ -16,7 +16,7 @@ function Hero() {
               happiness is priceless.
             </p>
             <a href="" className="btn btn-primary btn-lg">
-              Buat Kampanye Alam
+              Dapatkan Sekarang
             </a>
           </div>
           <div className="col-md-5">

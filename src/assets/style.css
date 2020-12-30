@@ -232,9 +232,30 @@
 /* akhir footer*/
 
 /* detail product */
+#detail-product {
+    margin-top: 50px;
+}
+
+#detail-product .name-product {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 70px;
+    /* identical to box height, or 152% */
+    color: #272042;
+    margin-top: 20%;
+}
+
+#detail-product .price-product {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #045F50;
+}
+
 #detail-product p {
     width: 70%;
 }
+
 
 /* akhir detail product */
 
@@ -342,4 +363,11 @@
     }
 
     /* akhir footer */
+
+    /* detail product */
+    #detail-product .name-product {
+        margin-top: -10%;
+    }
+
+    /* akhir detail product */
 }

@@ -8,21 +8,21 @@ function DetailProductPage() {
         <div className="row">
           <div className="col-md-8">
             <img
-              className="img-fluid mb-5"
+              className="img-thumbnail rounded img-fluid mb-5"
               src={ImageDetail}
               alt=""
               width="650"
             />
           </div>
           <div className="col-md-4">
-            <h4>Test</h4>
-            <p>Rp. 150000</p>
+            <h4 className="name-product">Test</h4>
+            <p className="price-product">Rp. 150000</p>
             <img src={Stars} alt="" />
             <br />
             <button className="btn btn-success btn-lg mt-5">
               Beli sekarang
             </button>
-            <button className="btn btn-danger btn-lg mt-2">
+            <button className="btn btn-danger btn-lg mt-2 mb-3">
               Tambah Ke keranjang
             </button>
           </div>
