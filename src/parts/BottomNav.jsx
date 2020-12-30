@@ -5,7 +5,7 @@ function BottomNav() {
     <div id="bottom-nav">
       <nav className="navbar navbar-light bg-info navbar-expand fixed-bottom d-md-none d-lg-none d-xl-none bg-white">
         <ul className="navbar-nav nav-justified w-100">
-          <li className="nav-item">
+          <li className="nav-item active">
             <a href="#" className="nav-link">
               <svg
                 width="1em"
