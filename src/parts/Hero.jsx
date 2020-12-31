@@ -12,8 +12,7 @@ function Hero() {
               Hal sederhana, jadi lebih bermakna bersama LindungiHutan.
             </h3>
             <p>
-              When you eat something that cooked by yourself, <br /> the
-              happiness is priceless.
+              Mencari bahan ramah lingkungan, <br /> bisa didapatkan disini.
             </p>
             <a href="" className="btn btn-primary btn-lg">
               Dapatkan Sekarang

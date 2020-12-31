@@ -7,9 +7,9 @@ function Testimonial() {
     <div id="testimonial">
       <div className="container">
         <h4 className="qoutes text-center">
-          Awalnya saya malu dengan mertua karena tidak bisa memasak kini mereka
-          lebih suka makan malam di rumah demi menyantap masakan yang saya buat
-          sendiri
+          Awalnya saya bingung dengan mencari barang ramah lingkungan karena
+          tidak bisa menemukan platform yang tepat kini saya sudah menemukan
+          platform yang tepat
         </h4>
         <p className="backtik">"</p>
         <img src={UserImage} alt="" className="user-image" />

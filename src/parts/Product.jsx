@@ -1,45 +1,64 @@
 import React, { Component, Fragment } from "react";
-// import image
-import ImageProduct from "assets/images/mtmf-robin-emmons.jpg";
-import Stars from "assets/images/stars.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Link,
+  withRouter,
+} from "react-router-dom";
 import CardProduct from "elements/CardProduct";
 import axios from "axios";
 
 class Product extends Component {
+  // state
   state = {
     product: [],
   };
-  componentDidMount() {
-    axios.get("http://localhost:3000/product").then((result) => {
-      this.setState({
-        product: result.data,
+  // method mengambil data dari server berupa json
+  getPostAPI() {
+    axios
+      .get("http://localhost:3000/product?_sort=id&_order=desc")
+      .then((result) => {
+        this.setState({
+          product: result.data,
+        });
       });
-    });
   }
+  // ketika component dipasang
+  componentDidMount() {
+    this.getPostAPI();
+  }
+
+  handleDetail = (id) => {
+    this.props.history.push(`/detail-product/${id}`);
+  };
+
   render() {
     return (
       // bagian product
-      <div id="product">
-        <div className="container">
-          <h2 className="display-6 text-center mb-4">Produk</h2>
-          <div className="row">
-            {this.state.product.map((product) => {
-              return (
-                <CardProduct
-                  key={product.id}
-                  name={product.name}
-                  price={product.price}
-                  description={product.description}
-                  image={product.image}
-                />
-              );
-            })}
+      <Fragment>
+        <div id="product">
+          <div className="container">
+            <h2 className="display-6 text-center mb-4">Produk</h2>
+            <div className="row">
+              {/* melooping data pada api */}
+              {this.state.product.map((product) => {
+                return (
+                  // mengirimkan props
+                  <CardProduct
+                    key={product.id}
+                    data={product}
+                    goDetail={this.handleDetail}
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
-      </div>
+      </Fragment>
     );
   }
 }
 
-export default Product;
+export default withRouter(Product);
