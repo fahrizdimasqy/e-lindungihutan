@@ -52,6 +52,7 @@ class DetailProductPage extends Component {
               />
             </div>
             <div className="col-md-4">
+              {/* memanggil data */}
               <h4 className="name-product">{this.state.product.name}</h4>
               <p className="price-product">{this.state.product.price}</p>
               <img src={Stars} alt="" className="stars-detail" />
@@ -76,25 +77,7 @@ class DetailProductPage extends Component {
               </a>
             </li>
           </ul>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Perferendis tenetur porro eaque eos doloremque minima nemo, error
-            magnam iusto! Nam, sapiente illum ipsum praesentium unde nostrum
-            fugit animi laudantium at. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Molestias beatae soluta unde nesciunt officia
-            natus minus, incidunt reprehenderit consequatur quas, perspiciatis
-            consequuntur fuga sunt excepturi voluptates perferendis dolore ad?
-            Quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Architecto totam, tenetur ad quo error eveniet! Suscipit quam
-            ducimus harum culpa necessitatibus aliquid, nihil vero eos saepe
-            facilis deleniti rem! Rerum?Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Dolore animi deserunt molestiae nihil esse eum,
-            itaque consequuntur nesciunt adipisci eveniet quidem harum, omnis
-            sunt repellendus obcaecati architecto iste, eaque labore?Lorem ipsum
-            dolor, sit amet consectetur adipisicing elit. Maxime ipsum nesciunt
-            aliquam aliquid quae consectetur pariatur veritatis porro, officia
-            at voluptate? Est odio quo dolor in nobis soluta numquam accusamus.
-          </p>
+          <p>{this.state.product.description}</p>
         </div>
       </div>
     );
