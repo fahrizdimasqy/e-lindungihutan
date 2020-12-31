@@ -8,13 +8,13 @@ import {
   withRouter,
 } from "react-router-dom";
 // import image
-import ImageProduct from "assets/images/mtmf-robin-emmons.jpg";
 import Stars from "assets/images/stars.png";
 
 function CardProduct(props) {
   return (
     <Fragment>
       <div className="col-md-4">
+        {/* memanggil method goDetail ketika di klick */}
         <Link
           onClick={() => props.goDetail(props.data.id)}
           className="card-link"

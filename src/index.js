@@ -20,6 +20,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "jquery/dist/jquery.min.js";
 import "popper.js/dist/popper.js";
 ReactDOM.render(
+  // membungkus Component App kedalam BrowserRouter
   <BrowserRouter>
     <Fragment>
       <App />

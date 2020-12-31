@@ -30,6 +30,7 @@ class Product extends Component {
     this.getPostAPI();
   }
 
+  // untuk mengarahkan ke url /detail-product dengan membawa parameter;
   handleDetail = (id) => {
     this.props.history.push(`/detail-product/${id}`);
   };

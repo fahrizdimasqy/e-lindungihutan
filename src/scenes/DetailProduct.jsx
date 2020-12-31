@@ -14,7 +14,7 @@ import {
 const DetailProduct = (props) => {
   return (
     <div>
-      {/* memanggil component Header */}
+      {/* memanggil component */}
       <Header></Header>
       <DetailProductPage />
       <BottomNav />
