@@ -166,6 +166,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    margin-top: -40%;
 }
 
 /* Akhir Testimonial */
@@ -329,6 +330,11 @@
         /* or 139% */
         text-align: center;
         color: #272042;
+    }
+
+    #testimonial .user-image {
+        position: relative;
+        top: -340px;
     }
 
     /* akhir testimonial */
